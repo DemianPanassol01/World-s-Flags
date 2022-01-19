@@ -1,0 +1,28 @@
+strong {
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 64px auto 64px;
+    display: flex;
+}
+
+.container img {
+    margin-right: 2rem;
+    width: auto;
+    height: 258px;
+}
+
+.containerInfo p {
+    margin-bottom: 1rem;
+}
+
+.containerCarrossel {
+    max-width: 1200px;
+    margin: auto;
+}

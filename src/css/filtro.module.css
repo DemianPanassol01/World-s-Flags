@@ -1,0 +1,41 @@
+.filtro {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    margin: 64px auto 48px;
+    justify-content: space-around;
+}
+
+.filtro select,
+.filtro input {
+    border: none;
+    border-bottom: 1px solid #6D2080;
+    color: #8d8d8d;
+    padding-bottom: 2px;
+    overflow: hidden;
+    cursor: pointer;
+    width: 300px;
+}
+
+.filtro button {
+    border: none;
+    background: #6D2080;
+    border-radius: 10px;
+    padding: .8rem 2.5rem;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.filtro button:hover {
+    opacity: .7;
+}
+
+@media (min-width: 1200px) {
+
+    .filtro select:nth-child(2),
+    .filtro input {
+        margin-left: 2rem;
+    }
+}

@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    height: 100px;
+    padding: 0 2rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fcfcfc;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar i {
+    margin-right: .5rem;
+}
+
+.navbar span {
+   margin: 0 2rem 0 auto;
+   cursor: pointer;
+}
+
+.navbar a,
+.navbar span {
+    text-decoration: none;
+    border: 1px solid #6D2080;
+    padding: .5rem 1rem;
+}
+
+.navbar a:hover,
+.navbar span:hover {
+    opacity: .5;
+}

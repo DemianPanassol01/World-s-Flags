@@ -1,0 +1,12 @@
+.bandeiraLink {
+    width: 316px;
+    height: 181px;
+    margin: 0;
+}
+
+.bandeiraLink img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
